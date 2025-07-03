@@ -1,0 +1,162 @@
+/* Fonts – make sure you have Great Vibes & Poppins imports at the top */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f5eef4; /* very light mauve */
+  color: #46253a; /* deep mauve text */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.scenic-header {
+    background: linear-gradient(135deg, #f6cbd7, #e8aac9); /* soft pink-mauve gradient */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .scenic-header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #4a2230; /* dark mauve text */
+    letter-spacing: 1px;
+  }
+  
+  .scenic-header p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    color: #593646; /* soft mauve */
+  }
+  
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #efd4e6;
+  padding: 0.5em;
+  gap: 12px;
+}
+
+nav button {
+  padding: 10px 28px;
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #de9db5, #c4789c);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 6px rgba(212, 139, 173, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background: linear-gradient(135deg, #c4789c, #a3566e);
+  box-shadow: 0 6px 12px rgba(163, 105, 134, 0.4);
+  transform: translateY(-2px);
+}
+
+main {
+  padding: 2em;
+}
+
+section h2 {
+  color: #593646;
+  margin-top: 1em;
+}
+
+.boarding-pass {
+  background: white;
+  border-radius: 20px;
+  padding: 1.4em 1.6em;
+  margin: 1.2em 0;
+  position: relative;
+  box-shadow: 0px 10px 20px rgba(75, 45, 60, 0.1);
+}
+
+.boarding-pass::before,
+.boarding-pass::after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #f5eef4;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.boarding-pass::before { left: -8px; }
+.boarding-pass::after  { right: -8px; }
+
+.boarding-pass p {
+  margin: 0.5em 0;
+  color: #543249;
+}
+
+.boarding-pass a {
+  color: #a3566e;
+  text-decoration: none;
+}
+
+.boarding-pass a:hover {
+  text-decoration: underline;
+}
+
+.button-cook {
+  display: inline-block;
+  padding: 0.6em 1.8em;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #e8aac9, #c35684);
+  border: none;
+  border-radius: 999px;
+  box-shadow: 0 4px 10px rgba(212, 139, 173, 0.3);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button-cook:hover {
+  background: linear-gradient(135deg, #c35684, #9a2e50);
+  box-shadow: 0 6px 14px rgba(163, 105, 134, 0.4);
+  transform: translateY(-2px);
+}
+
+
+footer {
+    background: linear-gradient(135deg, #de9db5, #c4789c);
+    text-align: center;
+    color: white;
+    padding: 1.2em 0;
+    font-weight: 600;
+    font-size: 1em;
+    box-shadow: 0 -2px 10px rgba(212, 139, 173, 0.15);
+    margin-top: 3em;
+    position: relative;
+    z-index: 10;
+  }
+
+  .map-embed iframe {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  

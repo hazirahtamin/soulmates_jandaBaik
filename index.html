@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soulmates Masak-Masak Janda Baik</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #dish-list { display: none; margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <header class="scenic-header">
+    <div class="header-overlay">
+      <h1>Soultrips with Soulmates</h1>
+      <p>Janda Baik Trip 2 Days 1 Night - 5 & 6 July 2025</p>
+    </div>
+  </header>
+  <nav>
+    <button onclick="showTab('itinerary')">Itinerary</button>
+    <button onclick="showTab('games')">Games</button>
+  </nav>
+
+  <main>
+    <section id="itinerary" class="tab">
+      <h2>Day 1 - Saturday (5 Jul 2025)</h2>
+
+      <div class="boarding-pass">
+        <p>9:30 AM - Brunch at <strong>Kenny Hills Ampang</strong></p>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7528653878076!2d101.72616217460053!3d3.1597141530884065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4838780edbcd%3A0x6e2539ba107d882c!2sKenny%20Hills%20Bakers%2C%20Ampang!5e0!3m2!1sen!2smy!4v1751556509461!5m2!1sen!2smy" 
+            width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="boarding-pass">
+        <p>11:00 AM - Konvoi to <strong>Villa Dua Pintu, Janda Baik</strong></p>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.151314830314!2d101.8712221!3d3.3127370999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3dc782aedb6b%3A0xe58aadfd7f1045b4!2sDua%20Pintu!5e0!3m2!1sen!2smy!4v1751556605796!5m2!1sen!2smy" 
+            width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="boarding-pass"><p>12:00 PM - Check in <strong>Villa Dua Pintu, Janda Baik</strong></p></div>
+      <div class="boarding-pass"><p>1:00 PM - Group photo, solat Zohor & chit chat</p></div>
+      <div class="boarding-pass"><p>4:30 PM - Solat Asar</p></div>
+      <div class="boarding-pass">
+        <p>4:45 PM - Minum Petang: Cekodok + Teh O</p>
+        <p><em>Prepared by: Ereen & Dina (Cekodok), Zirah (Teh O)</em></p>
+      </div>
+
+      <div class="boarding-pass"><p>5:30 PM - Telematch (Session 1) <a href="#games" onclick="showTab('games')">Games</a></p></div>
+      <div class="boarding-pass"><p>6:00 PM - BBQ Prep / Mandi Sungai</p></div>
+      <div class="boarding-pass"><p>8:00 PM - Solat Maghrib & Isyak, Yassin</p></div>
+      <div class="boarding-pass"><p>8:40 PM - BBQ Night + <a href="#games" onclick="showTab('games')">Games</a></p></div>
+
+      <h2>BBQ Night - Masak-Masak</h2>
+
+      <div class="boarding-pass">
+        <button class="button-cook" onclick="toggleDishes()">🍴 Click to See What We’re Cooking</button>
+        <div id="dish-list">
+          <ul>
+            <li>BBQ (ayam & daging siap perap) – Iman, Azhan, Alep, Shahid</li>
+            <li>Nasi Goreng – Ereen</li>
+            <li>Mash Potato – Farah & Diana</li>
+            <li>Coleslaw – Dina & Izzah</li>
+            <li>Kek Batik – Ereen</li>
+            <li>Udang Nestum – Zirah & Jad</li>
+            <li>Nugget & Fries – Aor</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Day 2 - Sunday (6 Jul 2025)</h2>
+
+      <div class="boarding-pass"><p>6:00 AM - Wake Up & Solat Subuh</p></div>
+      <div class="boarding-pass"><p>7:00 AM - Breakfast Prep</p></div>
+
+      <div class="boarding-pass">
+        <p>8:30 AM - Breakfast + Free & Easy</p>
+        <p><em>Menu: Nasi Lemak, Ayam Berempah, Waffle, Teh Tarik & Coffee</em></p>
+      </div>
+
+      <div class="boarding-pass"><p>10:30 AM - Pack + Group Photo</p></div>
+      <div class="boarding-pass"><p>12:00 PM - Check Out</p></div>
+      <div class="boarding-pass"><p>12:30 PM - Lunch @ Janda Baik and Durian Hunting</p></div>
+    </section>
+
+    <section id="games" class="tab" style="display: none;">
+      <h2>Games</h2>
+
+      <div class="boarding-pass">
+        <p><strong>Session 1: 5PM – 7PM (Telematch)</strong></p>
+        <ul>
+          <li>Game 1 – Siapa Cepat Dia Menang 🏃‍♀️</li>
+          <li>Game 2 – Tarik Sampai Jatuh ⛓️</li>
+          <li>Game 3 – 3B (Baling, Bola, Basah) 🤾🏻‍♂️💦</li>
+        </ul>
+      </div>
+
+      <div class="boarding-pass">
+        <p><strong>Session 2: 9PM – 11PM</strong></p>
+        <ul>
+          <li>Kerusi Berlagu 🪑🎶</li>
+          <li>Bila Bulan Mengambang 🐺🌙</li>
+          <li>Uno Dos Tres 1️⃣2️⃣3️⃣</li>
+          <li>Charades Our Way 🤔🤔</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>#soultripsoulmates :D</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
