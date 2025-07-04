@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Soulmates <3</title>
+  <title>Soulmates Trip to Janda Baik</title>
   <link rel="stylesheet" href="style.css">
   <style>
     #dish-list { display: none; margin-top: 1em; }
@@ -18,14 +18,27 @@
   <nav>
     <button onclick="showTab('itinerary')">Itinerary</button>
     <button onclick="showTab('games')">Games</button>
+    <button onclick="showTab('recipe')">Recipe</button>
   </nav>
 
   <main>
+    <section class="precaution">
+      <div class="boarding-pass">
+        <p><strong>Precaution Notice ⚠️</strong></p>
+        <ul>
+          <li><strong>No luggage is allowed</strong> – please bring only small backpacks or light travel bags.</li>
+          <li>Pack any personal medication or hygiene items.</li>
+          <li>Travel light – avoid overpacking and bulky containers.</li>
+        </ul>
+      </div>
+    </section>
     <section id="itinerary" class="tab">
       <h2>Day 1 - Saturday (5 Jul 2025)</h2>
-
       <div class="boarding-pass">
         <p>9:30 AM - Brunch at <strong>Kenny Hills Ampang</strong></p>
+        <!-- Accurate location: Kenny Hills Bakers -->
+        <a href="https://www.google.com/maps/search/?api=1&query=3.1597141530884065,101.72616217460053" target="_blank">Google Maps |</a>
+        <a href="https://waze.com/ul?ll=3.1597141530884065,101.72616217460053&navigate=yes" target="_blank">Waze</a>
         <div class="map-embed">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7528653878076!2d101.72616217460053!3d3.1597141530884065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc4838780edbcd%3A0x6e2539ba107d882c!2sKenny%20Hills%20Bakers%2C%20Ampang!5e0!3m2!1sen!2smy!4v1751556509461!5m2!1sen!2smy" 
             width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -35,6 +48,9 @@
 
       <div class="boarding-pass">
         <p>11:00 AM - Konvoi to <strong>Villa Dua Pintu, Janda Baik</strong></p>
+        <!-- Accurate location: Villa Dua Pintu -->
+        <a href="https://www.google.com/maps/search/?api=1&query=3.3127371,101.8712221" target="_blank">Google Maps |</a>
+        <a href="https://waze.com/ul?ll=3.3127371,101.8712221&navigate=yes" target="_blank">Waze</a>
         <div class="map-embed">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.151314830314!2d101.8712221!3d3.3127370999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3dc782aedb6b%3A0xe58aadfd7f1045b4!2sDua%20Pintu!5e0!3m2!1sen!2smy!4v1751556605796!5m2!1sen!2smy" 
             width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
@@ -109,7 +125,16 @@
         </ul>
       </div>
     </section>
+
+    <section id ="recipe" class="tab" style="display: none;">
+      <img src="Recipe.jpeg" alt="How to cook" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+    </section>
+    
+    
+    
   </main>
+
+  
 
   <footer>
     <p>#soultripsoulmates :D</p>
